@@ -7,7 +7,7 @@ import pandas as pd
 
 driver = webdriver.Chrome(executable_path="chromedriver.exe")
 
-pageLoadWait = 1
+pageLoadWait = 5
 numberOfProduct = 100
 
 def getListProductPage(pageNum):
